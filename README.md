@@ -127,7 +127,7 @@ Apex Trigger for event capacity validation
 # Author
 
 Samireddi Adilakshmi
- B.E. Information Technology
- India
+B.E. Information Technology
+India
 
 

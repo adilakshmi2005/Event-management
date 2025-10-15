@@ -28,27 +28,27 @@ Event organizers often face challenges such as:
 
 # Solution
 
-A **Salesforce-based centralized system** to:
+A Salesforce-based centralized system to:
 
- **Manage Events and Attendees using custom objects
-* Create relationships between events and attendees
-* Automate confirmation and feedback emails via Flows & Email Alerts
-* Provide real-time dashboards for event insights and analysis
+Manage Events and Attendees using custom objects
+Create relationships between events and attendees
+Automate confirmation and feedback emails via Flows & Email Alerts
+Provide real-time dashboards for event insights and analysis
 
 # Phase 2: Org Setup & Configuration
 
-* Created a Salesforce Developer Org
-* Enabled Lightning Experience
-* Configured Custom Tabs**, App Launcher Access, and Object Permissions
-* Created a Custom Profile – Event_Admin with full CRUD access to manage events and attendees
+  Created a Salesforce Developer Org
+  Enabled Lightning Experience
+  Configured Custom Tabs**, App Launcher Access, and Object Permissions
+  Created a Custom Profile – Event_Admin with full CRUD access to manage events and attendees
   
 
 # Phase 3: Data Modeling & Relationships
 
 # Custom Objects
 
-# Event__c → Stores event details (Name, Date, Location, Capacity, Type)
-# Attendee__c → Stores attendee details (Name, Email, Phone, Department, Registered Event)
+Event__c → Stores event details (Name, Date, Location, Capacity, Type)
+Attendee__c → Stores attendee details (Name, Email, Phone, Department, Registered Event)
 
 # Relationships
 
@@ -72,20 +72,18 @@ Lookup Relationship: Attendee → Event
 Currently, no Apex customization is used in this version.
 However, for **future enhancement**, the following are planned:
 
-**Apex Class** for bulk registration import
-**Apex Trigger** for event capacity validation
-
----
+Apex Class for bulk registration import
+Apex Trigger for event capacity validation
 
 # Phase 6: User Interface Development
 
-* Created **Tabs** for Event and Attendee objects
-* Customized **Page Layouts** for different record types:
+* Created Tabs for Event and Attendee objects
+* Customized Page Layouts for different record types:
 
-  * *Event Registration Layout*
-  * *Event Feedback Layout*
-* Added **Lookup fields** to connect attendees with specific events
-* Designed a **user-friendly navigation flow** within the Salesforce App
+  Event Registration Layout
+  Event Feedback Layout
+* Added Lookup fields to connect attendees with specific events
+* Designed a user-friendly navigation flow within the Salesforce App
 
 # Phase 7: Integration & External Access
 
@@ -95,17 +93,17 @@ However, for **future enhancement**, the following are planned:
 
 # Future Scope:
 
-* Integration with **Eventbrite**, **Google Calendar**, or other external event management tools.
+* Integration with Eventbrite, Google Calendar, or other external event management tools.
 
 # Phase 8: Data Management & Deployment
 
-* Loaded **sample data** for Events and Attendees
-* Maintained **version control** and documentation via GitHub
-* Deployment possible using **Change Sets** or **Salesforce DX (SFDX)**
+* Loaded sample data for Events and Attendees
+* Maintained version control and documentation via GitHub
+* Deployment possible using Change Sets or Salesforce DX (SFDX)
 
 # Phase 9: Reporting, Dashboards & Analytics
 
-# **Reports:**
+# Reports:
 
 * Event-wise Department-wise Summary
 * Event Capacity vs Registrations
@@ -113,7 +111,7 @@ However, for **future enhancement**, the following are planned:
 * Department-wise Registrations
 * Upcoming Events List
 
-# **Dashboards:**
+# Dashboards:
 
 1. **Department Insights Dashboard** – shows participation of different departments across events
 2. **Event Overview Dashboard** – visualizes event-wise capacity, registration count, and upcoming events
@@ -132,8 +130,4 @@ Samireddi Adilakshmi
  B.E. Information Technology
  India
 
----
-
-Would you like me to make this into a **formatted README.md file (ready to upload to GitHub)** — with emojis, headings, and spacing properly formatted for Markdown display?
-If yes, I can generate the `.md` file for you to download directly.
 
